@@ -1,0 +1,65 @@
+.res{
+	height: 100px;
+	width: 50%;
+}
+*{
+	color: black;
+}
+
+.B{
+	color: white;
+}
+
+.R{
+	background-color: red;
+}
+
+.O{
+	background-color: orange;
+}
+
+.Y{
+	background-color: yellow;
+}
+
+.G{
+	background-color: green;
+}
+
+.Bl{
+	background-color: blue;
+}
+
+.I{
+	background-color: indigo;
+}
+
+.V{
+	background-color: violet;
+}
+
+.B{
+	background-color: black;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	border: solid black 2px;
+}
+
+@media screen and (max-width:992px){
+	.res{
+		width: 100%;
+	}
+	.flex{
+		flex-direction: column;
+	}
+
+	.R{
+		display: none;
+	}
+
+	
+	
+}
